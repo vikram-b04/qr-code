@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.gg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.qrimage img{
+    width: 250px;
+    height: 250px;
+}
+.qrimage{
+    padding-bottom: 25px;
+}
+.form{
+    border: 1px solid #ccc;
+}
+.input input{
+    border-radius: 5px;
+    border: 1px solid #757272;
+}
+.backbtn button a{
+    text-decoration: none;
+    color: white;
+}
+.backend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.qrcode img{
+    width: 250px;
+    height: 250px;
+}
